@@ -1,6 +1,6 @@
 
 import './App.css'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createHashRouter, RouterProvider } from 'react-router-dom'
 import Layout from './Components/Layout/Layout.jsx'
 import Home from './Components/Home/Home.jsx'
 import Leafdiagnosis from './Components/Leafdiagnosis/Leafdiagnosis.jsx'
@@ -12,7 +12,7 @@ import Signup from './Components/Signup/Signup.jsx'
 import NotFound from './Components/NotFound/NotFound.jsx'
 
 
-let routers = createBrowserRouter([{
+let routers = createHashRouter([{
   path: '', element: <Layout />, children: [
     { index: true, element: <Signup /> },
     { path: 'login', element: <Login /> },
