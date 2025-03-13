@@ -10,7 +10,7 @@ export default function Layout() {
 
 		<Navbar />
 
-		<div className="container mt-4 py-12 ">
+		<div className=' ' >
 
 			<Outlet></Outlet>
 		</div>
