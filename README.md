@@ -1,2 +1,2 @@
 
-GitHub: [link](https://github.com/plantcare/plantcare)
+GitHub: [link](https://github.com/ghadayaser/plantcare)
